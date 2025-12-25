@@ -6,7 +6,6 @@ Summary:	OAuthlib authentication support for Requests.
 URL:		https://pypi.org/project/requests-oauthlib/
 License:	ISC
 Group:		Development/Python
-BuildRequires:	python
 BuildSystem:	python
 BuildArch:	noarch
 
