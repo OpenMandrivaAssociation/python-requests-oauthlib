@@ -1,12 +1,16 @@
 Name:		python-requests-oauthlib
 Version:	2.0.0
-Release:	2
+Release:	3
 Source0:	https://files.pythonhosted.org/packages/source/r/requests-oauthlib/requests-oauthlib-%{version}.tar.gz
 Summary:	OAuthlib authentication support for Requests.
 URL:		https://pypi.org/project/requests-oauthlib/
 License:	ISC
 Group:		Development/Python
 BuildSystem:	python
+BuildRequires:	pkgconfig(python3)
+BuildRequires:	python%{pyver}dist(pip)
+BuildRequires:	python%{pyver}dist(setuptools)
+BuildRequires:	python%{pyver}dist(wheel)
 BuildArch:	noarch
 
 %description
